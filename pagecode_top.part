@@ -1,0 +1,55 @@
+<!-- pagecode top -->
+	<div class="section clearfix">
+		<div id="name-and-slogan">
+			<h1 id="site-name">
+				<a class="small" rel="home" title="Home" href="http://gsb.stanford.edu">
+					<span>Stanford Graduate School of Business</span>
+				</a>
+			</h1>
+			<h2 id="subsite-name">Alumni <br> Association	</h2>
+		</div> 
+		<div id="site-slogan">
+			<span>GSB for Life!</span>
+		</div>
+<form action="https://search.gsb.stanford.edu/search" method="GET" accept-charset="UTF-8" class="search-form" id="search">
+  <div class="search-container container-inline">
+    <div class="form-item form-type-textfield form-item-search-block-form">
+      <label for="search-query-box" class="element-invisible">Search this site </label>
+      <input type="text" name="q" value="" placeholder="Search" size="15" maxlength="128" class="custom-search-default-value custom-search-box form-text" id="search-query-box">
+    </div>
+    <div class="form-actions form-wrapper" id="edit-actions">
+      <input type="image" alt="Search" name="op" value="Search" src="https://pgnet13.stanford.edu/pgw/bsa/header-search-magnifying-glass.png" class="custom-search-button form-submit" id="edit-submit">
+    </div>
+    <input type="hidden" value="Public_All" name="site">
+    <input type="hidden" value="quickstrike_frontend" name="client">
+    <input type="hidden" value="xml_no_dtd" name="output">
+    <input type="hidden" value="quickstrike_frontend" name="proxystylesheet">
+    <input type="hidden" value="1" name="proxyreload">
+    <input type="hidden" name="default_text" value="Search" class="default-text">
+  </div>
+</form>
+
+		 	<div class="region region-header">
+    <div id="block-menu-menu-top-links-alumni" class="block block-menu">
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="https://pgnet13.stanford.edu/get/page/directory/search">Find an Alum</a> <span style="font-size: 14px;"> |</span></li>
+<li class="leaf"><a href="https://pgnet13.stanford.edu/tools/mail?level=12&groupname=gsb">Check Email</a> <span style="font-size: 14px;"> |</span></li>
+<li class="leaf"><a href="https://pgnet13.stanford.edu/get/page/my-account/profile">My Profile</a> <span style="font-size: 14px;"> |</span></li>
+<li class="last leaf">Login/Logout Logic Here</li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-header-mega" class="block block-menu">
+  
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf"><a href="http://gsb.stanford.edu/stanford-gsb-experience" class="menu-minipanel menu-minipanel-40276">Stanford GSB Experience</a></li>
+<li class="leaf"><a href="http://gsb.stanford.edu/programs" class="menu-minipanel menu-minipanel-40301">Our Programs</a></li>
+<li class="leaf"><a href="http://gsb.stanford.edu/research" class="menu-minipanel menu-minipanel-40336">Faculty & Research</a></li>
+<li class="leaf"><a href="http://gsb.stanford.edu/business-insights" class="menu-minipanel menu-minipanel-40266">News & Insights</a></li>
+<li class="leaf"><a href="http://alumni.gsb.stanford.edu" class="menu-minipanel menu-minipanel-40286">Alumni</a></li>
+<li class="last leaf"><a href="http://gsb.stanford.edu/corporate" class="menu-minipanel menu-minipanel-40331">Recruiters & Companies</a></li>
+</ul>  </div>
+</div>
+  </div>
+  </div> <!-- /.section -->
+<!-- end pagecode top -->

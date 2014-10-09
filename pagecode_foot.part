@@ -1,0 +1,83 @@
+<!-- pagecode foot -->
+<script language="JavaScript" type="text/javascript">
+var str=location.href;
+if (document.getElementById('containerInner'))
+  document.getElementById('containerInner').className="noBg";
+if (str.indexOf("/my-account/") > 0) 
+{
+ if (document.getElementById('activeprof')) document.getElementById('activeprof').className="active";
+ if (document.getElementById('activedir'))
+ document.getElementById('activedir').className="";
+ if (document.getElementById('containerInner'))
+  document.getElementById('containerInner').className="";
+}
+if (str.indexOf("/page/directory/") > 0)
+{
+ if (document.getElementById('activedir')) document.getElementById('activedir').className="active";
+ if (document.getElementById('activeprof')) document.getElementById('activeprof').className="";
+ if (document.getElementById('containerInner')) 
+   document.getElementById('containerInner').className="";
+} 
+if (str.indexOf("/eventreg/") > 0)
+{
+ if (document.getElementById('content'))
+   document.getElementById('content').className="clearfix noBg";
+} else {
+  if (document.getElementById('content'))
+   document.getElementById('content').className="clearfix";
+}
+if (str.indexOf("/get/page/discussions/") > 0)
+{
+ if (document.getElementById('container'))
+   document.getElementById('container').style.zIndex="3";
+} else {
+  if (document.getElementById('container'))
+   document.getElementById('container').style.zIndex="0";
+}
+</script>
+
+<div id="footer-wrapper">
+<div class="section">
+<div class="clearfix" id="footer">
+<div id="footer-left">
+<!-- Footer block -->
+<div class="region region-footer">
+<div class="block block-menu" id="block-menu-menu-footer-top"> 
+<div class="content">
+    <ul class="menu clearfix"><li class="first leaf"><a href="http://www.gsb.stanford.edu/stanford-gsb-experience" target="_top">Stanford GSB Experience</a></li>
+<li class="leaf"><a href="http://www.gsb.stanford.edu/programs" target="_top">Our Programs</a></li>
+<li class="leaf"><a href="http://www.gsb.stanford.edu/research" target="_top">Faculty & Research</a></li>
+<li class="leaf"><a href="http://www.gsb.stanford.edu/business-insights" target="_top">News & Insights</a></li>
+<li class="leaf"><a href="http://alumni.gsb.stanford.edu" target="_top">Alumni</a></li>
+<li class="last leaf"><a href="http://www.gsb.stanford.edu/corporate" target="_top">Recruiters & Companies</a></li>
+</ul>
+</div>
+</div>
+<div class="block block-menu" id="block-menu-menu-footer-bottom">
+<div class="content">
+    <ul class="menu clearfix">
+<li class="first"><a target="_top" href="http://www.gsb.stanford.edu/stanford-university-community">Stanford University Community</a></li>
+    <li class="leaf"><a target="_top" href="http://www.gsb.stanford.edu/visit">Visit Us</a></li>
+    <li class="leaf"><a target="_top" href="http://www.gsb.stanford.edu/exed/">Executive Education</a></li>
+    <li class="leaf"><a target="_top" href="http://gsb.stanford.edu/giving">Giving</a></li>
+    <li class="leaf"><a target="_top" href="http://gsb.stanford.edu/policy">Privacy Policy</a></li>
+    <li class="leaf"><a target="_top" href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+    <li class="last leaf"><a target="_top" href="http://www.stanford.edu">Stanford University</a></li>
+    </ul>  
+</div>
+</div>
+
+<div class="block block-menu" id="block-menu-menu-footer-bottom">
+<div class="content">
+    <ul class="menu clearfix">
+<li class="first">Copyright © 2014 Stanford Graduate School of Business</li>
+    </ul>  
+</div>
+</div>
+
+</div>
+</div>
+</div> <!-- /#footer -->
+</div>
+</div>
+<!-- end pagecode foot -->
